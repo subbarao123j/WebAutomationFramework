@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+  <test thread-count="5" name="BasicRegressionTest">
+    <classes>
+      <class name="day11.MyCRMApp5"/>
+      <class name="day11.MyFirstTestNg"/>
+      <class name="day11.MyCRMApp4"/>
+    </classes>
+  </test> <!-- BasicRegressionTest -->
+</suite> <!-- Regression -->

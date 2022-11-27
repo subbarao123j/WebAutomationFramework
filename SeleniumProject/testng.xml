@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameters>
+			<parameter name="browser" value="Chrome" />
+			/
+			<parameter name="url" value="http://www.gmail.com" />
+			/
+			<parameter name="session" value="class12" />
+
+
+
+		</parameters>
+		<classes>
+			<class name="day12.AcceptParaameters" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Test1">
+		<parameters>
+			<parameter name="browser" value="IE" />
+			/
+			<parameter name="url" value="http://www.twitter.com" />
+			/
+			<parameter name="session" value="class12" />
+
+
+
+		</parameters>
+		<classes>
+			<class name="day12.AcceptParaameters" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Test2">
+		<parameters>
+			<parameter name="browser" value="Firefox" />
+			/
+			<parameter name="url" value="http://www.yahoo.com" />
+			/
+			<parameter name="session" value="class12" />
+
+
+
+		</parameters>
+		<classes>
+			<class name="day12.AcceptParaameters" />
+		</classes>
+	</test>
+</suite>    

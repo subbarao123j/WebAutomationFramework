@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-26T09:06:03 SGT" name="Smoke" finished-at="2022-11-26T09:06:03 SGT" duration-ms="49">
+    <groups>
+    </groups>
+    <test started-at="2022-11-26T09:06:03 SGT" name="SmokeTestScenario" finished-at="2022-11-26T09:06:03 SGT" duration-ms="49">
+      <class name="day11.MyCRMApp2">
+        <test-method signature="logiinApp()[pri:1, instance:day11.MyCRMApp2@6babf3bf]" started-at="2022-11-26T09:06:03 SGT" name="logiinApp" finished-at="2022-11-26T09:06:03 SGT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logiinApp -->
+        <test-method signature="createuser()[pri:2, instance:day11.MyCRMApp2@6babf3bf]" started-at="2022-11-26T09:06:03 SGT" name="createuser" finished-at="2022-11-26T09:06:03 SGT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method signature="deleteUser()[pri:3, instance:day11.MyCRMApp2@6babf3bf]" started-at="2022-11-26T09:06:03 SGT" name="deleteUser" finished-at="2022-11-26T09:06:03 SGT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="logOut()[pri:4, instance:day11.MyCRMApp2@6babf3bf]" started-at="2022-11-26T09:06:03 SGT" name="logOut" finished-at="2022-11-26T09:06:03 SGT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- day11.MyCRMApp2 -->
+      <class name="day11.MyCRMApp3">
+        <test-method signature="loginApp()[pri:0, instance:day11.MyCRMApp3@63a12c68]" started-at="2022-11-26T09:06:03 SGT" name="loginApp" finished-at="2022-11-26T09:06:03 SGT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="createUser()[pri:0, instance:day11.MyCRMApp3@63a12c68]" started-at="2022-11-26T09:06:03 SGT" name="createUser" finished-at="2022-11-26T09:06:03 SGT" depends-on-methods="day11.MyCRMApp3.loginApp" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="logOut()[pri:0, instance:day11.MyCRMApp3@63a12c68]" started-at="2022-11-26T09:06:03 SGT" name="logOut" finished-at="2022-11-26T09:06:03 SGT" depends-on-methods="day11.MyCRMApp3.loginApp, day11.MyCRMApp3.createUser" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- day11.MyCRMApp3 -->
+    </test> <!-- SmokeTestScenario -->
+  </suite> <!-- Smoke -->
+</testng-results>
